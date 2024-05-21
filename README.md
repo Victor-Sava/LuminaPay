@@ -77,4 +77,4 @@ If you have any questions or suggestions, feel free to contact us via:
 We look forward to working with you to create a safe, efficient, and convenient payment platform! 🚀
 
 ## Source Code Reference and Thanks for the Support 🙏
-[uka](https://github.com/tans/uka)
+[uka](https://github.com/tans/uka) Currently, only BSC chain coins/contracts are supported
