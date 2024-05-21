@@ -8,7 +8,7 @@ LuminaPay is an innovative cryptocurrency payment platform designed to provide c
 - [中文](README-zh.md)
 
 ## Features 🌟
-- ✅ Supports cryptocurrency payments (currently only supports TRX chain tokens/contracts)
+- ✅ Supports cryptocurrency payments (currently only supports TRON chain tokens/contracts)
 - ❎ Supports dynamic addition of supported tokens/contracts/chains
 - ❎ Data analysis and management with detailed financial report statistics
 - ❎ Wallet blacklist management
