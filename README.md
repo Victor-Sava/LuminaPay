@@ -1,13 +1,11 @@
 # LuminaPay Project Introduction 📄
+LuminaPay is an innovative cryptocurrency payment platform designed to provide comprehensive payment solutions for businesses and individual users.
 
-**Welcome to the LuminaPay project! Please select your preferred language:**
-**欢迎来到 LuminaPay 项目！请选择您喜欢的语言：**:
+- **Welcome to the LuminaPay project! Please select your preferred language:**:
+- **欢迎来到 LuminaPay 项目！请选择您喜欢的语言：**:
+
 - [English](README.md)
 - [中文](README-zh.md)
-
-## Goal 🎯
-
-LuminaPay is an innovative cryptocurrency payment platform designed to provide comprehensive payment solutions for businesses and individual users.
 
 ## Features 🌟
 - ✅ Supports cryptocurrency payments (currently only supports TRX chain tokens/contracts)
