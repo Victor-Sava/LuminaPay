@@ -13,10 +13,14 @@ LuminaPay 是一个创新的加密货币支付平台，旨在为企业和个人�
 - ❎ 数据分析与管理，详细的财务报表统计
 - ❎ 钱包黑名单管理
 
+## 演示 🌟
+- [客户端](https://lumima-pay.vercel.app/shop)
+- [管理端](https://lumima-pay.vercel.app/admin) 密码 123456
+
 ## 为什么选择开源？ 🤔
 
 1. 个人开发者，没有太多时间维护开发
-2. 开源项目，只靠[赞助打赏]()，没有太多动力
+2. 开源项目，只靠[赞助打赏](https://lumima-pay.vercel.app/shop)，没有太多动力
 
 ### 如何部署？ 🚀
 

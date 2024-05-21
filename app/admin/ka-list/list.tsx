@@ -12,6 +12,19 @@ export default function KaList(props) {
       setList(list);
     })();
   }, []);
+
+
+  function removeKa(id){
+    return async function(){
+      await fetch("/admin/api/ka",{
+        method: "DELETE",
+        body: JSON.stringify({id:id})
+      });
+      let { list } = await (await fetch("/admin/api/ka")).json();
+      setList(list);
+    }
+  }
+
   return (
     <>
       {list.map((item) => (
@@ -26,6 +39,7 @@ export default function KaList(props) {
           <KaForm ka={item}>
             <div className={buttonVariants()}>修改</div>
           </KaForm>
+          <div className={buttonVariants()} onClick={removeKa(item.id)}>删除</div>
         </div>
       ))}
     </>

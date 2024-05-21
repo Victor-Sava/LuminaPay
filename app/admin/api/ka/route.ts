@@ -28,3 +28,17 @@ export async function POST(request: NextRequest) {
 
   return Response.json({ status: true });
 }
+
+export async function DELETE(request: NextRequest) {
+  let json = await request.json();
+  let list = await prisma.ka.findMany({ orderBy: { price: "asc" } });
+  if (list.length <= 1) {
+    return Response.json({ status: false, message: "没有套餐" });
+  }
+  if (json.id) {
+    await prisma.ka.delete({
+      where: { id: json.id },
+    });
+  }
+  return Response.json({ status: true });
+}

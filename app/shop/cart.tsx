@@ -9,7 +9,7 @@ export default function ({ kaList }) {
 
   let submitOrder = async () => {
     let { order } = await (
-      await fetch("/order", {
+      await fetch("/api/order", {
         method: "POST",
         body: JSON.stringify({
           kaId: kaId,
