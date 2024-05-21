@@ -20,6 +20,7 @@ LuminaPay is an innovative cryptocurrency payment platform designed to provide c
 
 ### How to Deploy? 🚀
 
+
 **(1) Clone the project code:**
 ```bash
 git clone https://github.com/lumina-pay/lumimaPay
