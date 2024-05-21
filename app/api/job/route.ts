@@ -12,7 +12,7 @@ interface Tx {
 }
 let checkTx = async (tx: Tx) => {
   let price = new BigNumber(tx.quant)
-    .dividedBy("1000000000000000000")
+    .dividedBy("1000000")
     .toString();
   let _tx = await prisma.tx.findFirst({
     where: {
