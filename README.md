@@ -13,10 +13,17 @@ LuminaPay is an innovative cryptocurrency payment platform designed to provide c
 - ❎ Data analysis and management with detailed financial report statistics
 - ❎ Wallet blacklist management
 
+
+## 演示 🌟
+- [User Client](https://lumima-pay.vercel.app/shop)
+- [Management Client](https://lumima-pay.vercel.app/admin)
+    - account：admin 
+    - passwork：lumimaPay
+
 ## Why Choose Open Source? 🤔
 
 1. Personal developer, not much time for maintenance and development
-2. Open source project, relies only on [sponsorship donations](), lacks motivation
+2. Open source project, relies only on [sponsorship donations](https://lumima-pay.vercel.app/shop), lacks motivation
 
 ### How to Deploy? 🚀
 
