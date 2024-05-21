@@ -6,7 +6,7 @@
     "prestart": "npx prisma init && npx prisma generate",
     "dev": "next dev --turbo",
     "build": "next build",
-    "start": "next start dev",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
