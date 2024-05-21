@@ -1,0 +1,71 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Ka {
+  id          Int     @id @default(autoincrement())
+  title       String
+  price       Float
+  Order       Order[]
+  currentNo   Int     @default(0)
+  currentHour String  @default("")
+  show        Boolean @default(true)
+  quota       Int     @default(0)
+
+  // 商品库中不能有相同价格
+  @@unique([price])
+}
+
+model Order {
+  id        Int       @id @default(autoincrement())
+  ka        Ka        @relation(fields: [kaId], references: [id])
+  kaId      Int
+  hash      String
+  hours     String
+  price     String
+  payed     Boolean   @default(false)
+  address   String
+  createdAt DateTime  @default(now())
+  used      Boolean   @default(false)
+  usedAt    DateTime?
+  Tx        Tx?
+  txId      Int?
+
+  @@unique([hours, price])
+  @@unique([hash])
+}
+
+model Manual {
+  id        Int       @id @default(autoincrement())
+  hash      String
+  quota     Int
+  createdAt DateTime  @default(now())
+  used      Boolean   @default(false)
+  usedAt    DateTime?
+  log       String?
+
+  @@unique([hash])
+}
+
+model Tx {
+  id      Int     @id @default(autoincrement())
+  hash    String
+  // meta    Json
+  checked Boolean @default(false)
+  order   Order?  @relation(fields: [orderId], references: [id])
+  orderId Int?
+
+  @@unique([orderId])
+  @@unique([hash])
+}
