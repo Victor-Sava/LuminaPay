@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prestart": "npx prisma init && npx prisma generate",
+    "postinstall": "npx prisma generate",
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
