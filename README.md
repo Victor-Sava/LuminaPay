@@ -12,6 +12,8 @@ LuminaPay is an innovative cryptocurrency payment platform designed to provide c
 - ❎ Supports dynamic addition of supported tokens/contracts/chains
 - ❎ Data analysis and management with detailed financial report statistics
 - ❎ Wallet blacklist management
+- ❎ Use the latest version of nextjs
+- ❎ Support multiple languages
 
 
 ## 演示 🌟
