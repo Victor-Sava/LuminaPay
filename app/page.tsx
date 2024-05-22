@@ -17,7 +17,7 @@ export default function Home() {
               <h1 className="text-5xl font-bold mb-6">欢迎来到 LuminaPay</h1>
               <p className="text-2xl">一个创新的第四方支付平台，为您提供全方位的支付解决方案。</p>
               <div className="mt-8 flex justify-center space-x-4">
-                <Link href="https://lumimn-pay.vercel.app/shop" className="bg-white text-purple-700 font-bold py-2 px-4 rounded-full hover:bg-purple-100 transition duration-300">赞助</Link>
+                <Link href="https://lumina-pay.vercel.app/shop" className="bg-white text-purple-700 font-bold py-2 px-4 rounded-full hover:bg-purple-100 transition duration-300">赞助</Link>
               </div>
             </div>
           </section>
