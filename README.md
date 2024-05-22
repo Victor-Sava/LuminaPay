@@ -20,7 +20,7 @@ LuminaPay is an innovative cryptocurrency payment platform designed to provide c
 - [User Client](https://lumima-pay.vercel.app/shop)
 - [Management Client](https://lumima-pay.vercel.app/admin)
     - account：admin 
-    - passwork：lumimaPay
+    - passwork：LuminaPay
 
 ## Why Choose Open Source? 🤔
 
@@ -32,8 +32,8 @@ LuminaPay is an innovative cryptocurrency payment platform designed to provide c
 
 **(1) Clone the project code:**
 ```bash
-git clone https://github.com/lumina-pay/lumimaPay
-cd lumimaPay/
+git clone https://github.com/lumina-pay/LuminaPay
+cd LuminaPay/
 ```
 
 **(2) Install core dependencies:**
@@ -59,7 +59,7 @@ TRX_USDT_TOKEN=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
 # Wallet address on the TRX chain
 TRX_WALLET=xxxx
 # Admin page username and password
-HTTP_BASIC_AUTH=admin:lumimaPay
+HTTP_BASIC_AUTH=admin:LuminaPay
 # Current service domain
 HOST=http://localhost:3000
 ```
