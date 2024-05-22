@@ -20,7 +20,7 @@ LuminaPay 是一个创新的加密货币支付平台，旨在为企业和个人�
 - [客户端](https://lumima-pay.vercel.app/shop)
 - [管理端](https://lumima-pay.vercel.app/admin) 
   - 账号：admin 
-  - 密码：lumimaPay
+  - 密码：LuminaPay
 
 ## 为什么选择开源？ 🤔
 
@@ -31,8 +31,8 @@ LuminaPay 是一个创新的加密货币支付平台，旨在为企业和个人�
 
 **(1) 克隆项目代码：**
 ```bash
-git clone https://github.com/lumina-pay/lumimaPay
-cd lumimaPay/
+git clone https://github.com/lumina-pay/LuminaPay
+cd LuminaPay/
 ```
 
 **(2) 安装核心依赖：**
@@ -58,7 +58,7 @@ TRX_USDT_TOKEN=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
 #trx链的钱包地址
 TRX_WALLET=xxxx
 #admin 管理页面的账号密码
-HTTP_BASIC_AUTH=admin:lumimaPay
+HTTP_BASIC_AUTH=admin:LuminaPay
 #当前服务的域名
 HOST=http://localhost:3000
 ```
