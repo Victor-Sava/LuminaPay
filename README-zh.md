@@ -31,7 +31,7 @@ LuminaPay 是一个创新的加密货币支付平台，旨在为企业和个人�
 
 **(1) 克隆项目代码：**
 ```bash
-git clone https://github.com/lumina-pay/LuminaPay
+git clone https://github.com/kawikahoney/LuminaPay.git
 cd LuminaPay/
 ```
 
