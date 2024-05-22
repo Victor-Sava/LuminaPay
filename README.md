@@ -32,7 +32,7 @@ LuminaPay is an innovative cryptocurrency payment platform designed to provide c
 
 **(1) Clone the project code:**
 ```bash
-git clone https://github.com/lumina-pay/LuminaPay
+git clone https://github.com/kawikahoney/LuminaPay.git
 cd LuminaPay/
 ```
 
